@@ -1,0 +1,32 @@
+html {
+	background-color: rgb(0, 251, 255);
+}
+.VendingMachine {
+	background-color: rgb(255, 179, 0);
+	border-radius: 3em;
+	width: 50vw;
+	height: 80vh;
+	margin: auto;
+	margin-top: 3em;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.VendingMachine-machine {
+	display: flex;
+	border-radius: 3em;
+	background-color: rgba(179, 255, 0, 0.807);
+	justify-content: center;
+}
+
+img {
+	width: 19em;
+	z-index: 1;
+}
+
+h1 {
+	font-size: 3em;
+	color: rgb(241, 101, 125);
+}

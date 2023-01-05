@@ -1,0 +1,26 @@
+.Navbar {
+	background-color: slateblue;
+	display: flex;
+	width: 20vw;
+	margin: auto;
+	border-radius: 1em;
+}
+
+.Navbar ul {
+	list-style-type: none;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+}
+
+.Navbar ul a {
+	color: white;
+	text-decoration: none;
+	margin: auto;
+	display: flex;
+	padding: 1rem;
+	background-color: blue;
+	border-radius: 1em;
+	margin: .5em .5em;
+}
